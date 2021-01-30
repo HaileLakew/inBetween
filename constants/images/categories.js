@@ -110,7 +110,7 @@ export default {
       },
       {
         title: 'Pink Lipstick',
-        description: 'Lipstick is a cosmetic product containing pigments, waxes, and emollients that apply color, and protection to the lips.',
+        description: 'Lipstick is a cosmetic feedItem containing pigments, waxes, and emollients that apply color, and protection to the lips.',
         image: 'https://images.unsplash.com/photo-1498842812179-c81beecf902c?crop=entropy&fit=crop&w=840&q=80'
       },
       {

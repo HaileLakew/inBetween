@@ -88,10 +88,10 @@ class Header extends React.Component {
           <ChatButton key='chat-search' navigation={navigation} isWhite={white} />,
           <BasketButton key='basket-search' navigation={navigation} isWhite={white} />
         ]);
-      case 'Product':
+      case 'FeedItem':
         return ([
-          <SearchButton key='search-product' navigation={navigation} isWhite={white} />,
-          <BasketButton key='basket-product' navigation={navigation} isWhite={white} />
+          <SearchButton key='search-feedItem' navigation={navigation} isWhite={white} />,
+          <BasketButton key='basket-feedItem' navigation={navigation} isWhite={white} />
         ]);
       default:
         break;

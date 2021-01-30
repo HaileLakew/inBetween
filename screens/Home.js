@@ -2,7 +2,7 @@ import React from 'react';
 import { StyleSheet, Dimensions, ScrollView } from 'react-native';
 import { Button, Block, Text, Input, theme } from 'galio-framework';
 
-import { Icon, Product } from '../components/';
+import { Icon, FeedItem } from '../components/';
 
 const { width } = Dimensions.get('screen');
 import homeImages from '../constants/images/home';
@@ -30,13 +30,13 @@ export default class Home extends React.Component {
         showsVerticalScrollIndicator={false}
         contentContainerStyle={styles.products}>
         <Block flex>
-          <Product product={homeImages[0]} full />
+          <FeedItem feedItem={homeImages[0]} full />
           <Block flex row>
-            <Product product={homeImages[1]} style={{ marginRight: theme.SIZES.BASE }} />
-            <Product product={homeImages[2]} />
+            <FeedItem feedItem={homeImages[1]} style={{ marginRight: theme.SIZES.BASE }} />
+            <FeedItem feedItem={homeImages[2]} />
           </Block>
-          <Product product={homeImages[3]} full />
-          <Product product={homeImages[4]} full />
+          <FeedItem feedItem={homeImages[3]} full />
+          <FeedItem feedItem={homeImages[4]} full />
         </Block>
       </ScrollView>
     )

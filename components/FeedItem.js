@@ -16,14 +16,14 @@ const profile = {
 };
 
 
-class Product extends React.Component {
+class FeedItem extends React.Component {
   render() {
-    const { navigation, product, horizontal, full, style, priceColor, imageStyle } = this.props;
+    const { navigation, feedItem, horizontal, full, style, priceColor, imageStyle } = this.props;
     const imageStyles = [styles.image, full ? styles.fullImage : styles.horizontalImage, imageStyle];
 
     return (
-      <Block row={horizontal} card flex style={[styles.product, styles.shadow, style]}>
-        <TouchableWithoutFeedback onPress={() => navigation.navigate('Product', { product: product })}>
+      <Block row={horizontal} card flex style={[styles.feedItem, styles.shadow, style]}>
+        <TouchableWithoutFeedback onPress={() => navigation.navigate('FeedItem', { feedItem: feedItem })}>
           <Block flex style={[styles.imageContainer, styles.shadow]}>
             <Block style={{display: 'flex', flexDirection: 'row', margin: 10, alignContent: 'flex-end'}}>
               <Image source={require('../assets/images/SelfiePic1.jpg')} style={styles.avatar} />
@@ -34,9 +34,9 @@ class Product extends React.Component {
             <Image source={require('../assets/images/TogetherPic1.jpg')} style={imageStyles} />
           </Block>
         </TouchableWithoutFeedback>
-        <TouchableWithoutFeedback onPress={() => navigation.navigate('Product', { product: product })}>
+        <TouchableWithoutFeedback onPress={() => navigation.navigate('FeedItem', { feedItem: feedItem })}>
           <Block flex space="between" style={styles.productDescription}>
-            <Text size={14} style={styles.productTitle}>{product.title}</Text>
+            <Text size={14} style={styles.productTitle}>{feedItem.title}</Text>
           </Block>
         </TouchableWithoutFeedback>
       </Block>
@@ -44,10 +44,10 @@ class Product extends React.Component {
   }
 }
 
-export default withNavigation(Product);
+export default withNavigation(FeedItem);
 
 const styles = StyleSheet.create({
-  product: {
+  feedItem: {
     backgroundColor: theme.COLORS.WHITE,
     marginVertical: theme.SIZES.BASE,
     borderWidth: 0,
