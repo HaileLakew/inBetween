@@ -1,7 +1,9 @@
    
 <h1 align="center">inBetween</h1>
 
-<h2 align="center">A Couple's Building App</h2>
+<p align="center">
+  A Couple's Building App
+</p>
 
 <h3 align="center">This App is designed to help couples become even closer, regardless of distance or stage</h3>
 
