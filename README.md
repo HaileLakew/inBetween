@@ -5,7 +5,9 @@
   A Couple's Building App
 </p>
 
-<i align="center">This App is designed to help couples become even closer, regardless of distance or stage</i>
+<p align="center">
+   <i>This App is designed to help couples become even closer, regardless of distance or stage</i>
+</p>
 
 <h4 align="center"> WORK IN PROGRESS - COME BACK LATER ;) </h4>
 
