@@ -1,7 +1,7 @@
 export default {
     COLORS: {
       DEFAULT: '#DCDCDC',
-      PRIMARY: '#9C26B0',
+      PRIMARY: '#000000',
       LABEL: '#FE2472',
       INFO: '#00BCD4',
       ERROR: '#F44336',
@@ -9,10 +9,10 @@ export default {
       WARNING: '#FF9800',
       MUTED: '#979797',
       INPUT: '#DCDCDC',
-      ACTIVE: '#9C26B0',
-      BUTTON_COLOR: '#9C26B0',
+      ACTIVE: '#000000',
+      BUTTON_COLOR: '#000000',
       PLACEHOLDER: '#9FA5AA',
-      SWITCH_ON: '#9C26B0',
+      SWITCH_ON: '#000000',
       SWITCH_OFF: '#D4D9DD',
       GRADIENT_START: '#6B24AA',
       GRADIENT_END: '#AC2688',
